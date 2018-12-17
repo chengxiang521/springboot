@@ -11,7 +11,6 @@ public class SpringbootApplicationTests {
 
     @Test
     public void test1() {
-
         long t1=System.nanoTime();
         System.out.println(17<<1);
         long t2=System.nanoTime();
@@ -20,6 +19,7 @@ public class SpringbootApplicationTests {
         System.out.println(((2<<3)+1)<<1);
         long t4=System.nanoTime();
         System.out.println((t4-t3));
+
     }
 
 }
